@@ -27,7 +27,7 @@
                 <%= current_user.has_profile? ? current_user.full_name : current_user.email  %> <span class="caret"></span></a>
 
               <ul class="dropdown-menu">
-                <li><%= link_to "Your Events", root_path %></li>
+
                 <li role="separator" class="divider"></li>
 
                 <% if current_user.has_profile? %>
@@ -43,7 +43,7 @@
 
               </li>
                           <ul class="dropdown-menu">
-                            <li><%= link_to "Your Events", root_path %></li>
+                            
                             <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
                             <li role="separator" class="divider"></li>
                             <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
