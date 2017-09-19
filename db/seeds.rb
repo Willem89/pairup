@@ -2,9 +2,6 @@ Profile.destroy_all
 User.destroy_all
 
 
-
-
-
 profile1 =  Profile.create!(first_name: "Marco",    last_name: "Polo",      rol: "student")
 profile2 =  Profile.create!(first_name: "Winston",  last_name: "Churchil",  rol: "student")
 profile3 =  Profile.create!(first_name: "Karel",    last_name: "de Grote",  rol: "student")
@@ -19,16 +16,16 @@ profile11 = Profile.create!(first_name: "Dzjengis", last_name: "Khan",      rol:
 profile12 = Profile.create!(first_name: "Ellie",    last_name: "Tlou",      rol: "student")
 profile13 = Profile.create!(first_name: "Joel",     last_name: "Tlou",      rol: "student")
 
-user1 =  User.create!(email: "marco@gmail.com",     password: "Secret", profile: profile1)
-user2 =  User.create!(email: "winston@gmail.com",   password: "Secret", profile: profile2)
-user3 =  User.create!(email: "karel@gmail.com",     password: "Secret", profile: profile3)
-user4 =  User.create!(email: "salah@gmail.com",     password: "Secret", profile: profile4)
-user5 =  User.create!(email: "julius@gmail.com",    password: "Secret", profile: profile5)
-user6 =  User.create!(email: "marcus@gmail.com",    password: "Secret", profile: profile6)
-user7 =  User.create!(email: "lara@gmail.com",      password: "Secret", profile: profile7)
-user8 =  User.create!(email: "jeanne@gmail.com",    password: "Secret", profile: profile8)
-user9 =  User.create!(email: "mother@gmail.com",    password: "Secret", profile: profile9)
-user10 = User.create!(email: "charles@gmail.com",   password: "Secret", profile: profile10)
-user11 = User.create!(email: "dzjengis@gmail.com",  password: "Secret", profile: profile11)
-user12 = User.create!(email: "ellie@gmail.com",     password: "Secret", profile: profile12)
-user13 = User.create!(email: "joel@gmail.com",      password: "Secret", profile: profile13)
+user1 =  User.create!(email: "marco@history.com",   password: "Secret",     profile: profile1)
+user2 =  User.create!(email: "winston@history.com", password: "Secret",     profile: profile2)
+user3 =  User.create!(email: "karel@history.com",   password: "Secret",     profile: profile3)
+user4 =  User.create!(email: "salah@history.com",   password: "Secret",     profile: profile4)
+user5 =  User.create!(email: "julius@history.com",  password: "Secret",     profile: profile5)
+user6 =  User.create!(email: "marcus@history.com",  password: "Secret",     profile: profile6)
+user7 =  User.create!(email: "lara@history.com",    password: "Secret",     profile: profile7)
+user8 =  User.create!(email: "jeanne@history.com",  password: "Secret",     profile: profile8)
+user9 =  User.create!(email: "mother@history.com",  password: "Secret",     profile: profile9)
+user10 = User.create!(email: "charles@history.com", password: "Secret",     profile: profile10)
+user11 = User.create!(email: "dzjengis@history.com",password: "Secret",     profile: profile11)
+user12 = User.create!(email: "ellie@history.com",   password: "Secret",     profile: profile12)
+user13 = User.create!(email: "joel@history.com",    password: "Secret",     profile: profile13)
